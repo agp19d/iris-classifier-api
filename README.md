@@ -14,7 +14,7 @@ Node.js (Recommend 14.x or later)
 1. Clone the repository:
 
 ``` bash
-git clone [YOUR_GITHUB_REPO_LINK]
+git clone https://github.com/agp19d/iris-classifier-api.git
 cd iris_classifier_service
 ```
 
@@ -62,7 +62,7 @@ The server should now be running on port 3000. You can make requests to http://l
 To get a prediction, send a GET request with the desired Iris features:
 
 ``` bash
-curl http://localhost:3000/endpoint?feature1=<VALUE>&feature2=<VALUE>&feature3=<VALUE>&feature4=<VALUE>
+curl "http://localhost:3000/endpoint?feature1=<VALUE>&feature2=<VALUE>&feature3=<VALUE>&feature4=<VALUE>"
 ```
 
 Replace <VALUE> with your feature values. The response will contain the predicted Iris class.
