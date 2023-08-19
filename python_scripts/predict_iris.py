@@ -4,7 +4,6 @@
 import sys
 from joblib import load
 import numpy as np
-import os
 
 def main():
     # Ensure that the user provides exactly 4 features
