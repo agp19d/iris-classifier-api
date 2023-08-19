@@ -20,9 +20,6 @@ def main():
         print("Invalid input features detected.")
         return
     
-    # Debug: print the current working directory
-    print(os.getcwd())
-
     # Load the trained machine learning model
     model = load('./python_scripts/iris_model.pkl')
 
