@@ -1,0 +1,15 @@
+{
+  "name": "express_ml_api",
+  "version": "1.0.0",
+  "description": "exposes a machine learning model enpoint through an express api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alejandro",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "python-shell": "^5.0.0"
+  }
+}

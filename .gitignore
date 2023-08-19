@@ -1,0 +1,16 @@
+# Python
+*.pyc
+*.pyo
+*.egg-info
+*.dist-info
+__pycache__/
+myenv/
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Others
+.DS_Store
+*.log
